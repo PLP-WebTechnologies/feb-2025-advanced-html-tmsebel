@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Example</title>
+</head>
+<body>
+    <!-- Ordered list with roman numerals -->
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- External image from pexels.com -->
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Pexels Image" width="600">
+
+    <!-- Table of 5 contacts -->
+    <table border="1">
+        <caption>Contact List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>555-1234</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Elm St</td>
+                <td>555-5678</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>789 Oak St</td>
+                <td>555-9012</td>
+                <td>bob@example.com</td>
+            </tr>
+            <tr>
+                <td>Alice Brown</td>
+                <td>101 Pine St</td>
+                <td>555-3456</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Charlie Davis</td>
+                <td>202 Maple St</td>
+                <td>555-7890</td>
+                <td>charlie@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration form -->
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Registration Form</legend>
+
+            <!-- Name field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+            <!-- Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+
+            <!-- Date field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+
+            <!-- Dropdown field -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select>
+            <br>
+
+            <!-- Radio buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <br>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+</body>
+</html></html>
